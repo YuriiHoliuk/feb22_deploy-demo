@@ -9,6 +9,7 @@
     - pre-commit hook
   - test*
   - deploy
+- CI/CD
 
 ## Git
 - commits
