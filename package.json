@@ -18,5 +18,8 @@
     "@parcel/transformer-sass": "^2.6.1",
     "gh-pages": "^4.0.0",
     "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
