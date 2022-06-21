@@ -4,7 +4,8 @@
   "description": "",
   "source": "./src/index.html",
   "scripts": {
-    "start": "parcel"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [
     "gh-pages"
