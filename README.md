@@ -3,8 +3,8 @@
   - [x] .gitignore
 - [ ] dependencies(package.json)
   - [x] lodash
-  - bulma
-  - typescript
+  - [ ] bulma
+  - [ ] typescript
 - [ ] scripts
   - [x] start(dev server)
   - [x] build(source -> bundle)
