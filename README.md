@@ -2,6 +2,8 @@
 - git
   - .gitignore
 - dependencies(package.json)
+  - bulma
+  - typescript
 - scripts
   - start(dev server)
   - build(source -> bundle)
