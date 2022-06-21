@@ -1,17 +1,18 @@
 ## Goals
-- git
-  - .gitignore
-- dependencies(package.json)
+- [x] git
+  - [x] .gitignore
+- [ ] dependencies(package.json)
+  - [x] lodash
   - bulma
   - typescript
-- scripts
-  - start(dev server)
-  - build(source -> bundle)
-  - lint
-    - pre-commit hook
-  - test*
-  - deploy
-- CI/CD
+- [ ] scripts
+  - [x] start(dev server)
+  - [x] build(source -> bundle)
+  - [ ] lint
+    - [ ] pre-commit hook
+  - [ ] test*
+  - [x] deploy
+- [ ] CI/CD
 
 ## Git
 - commits
