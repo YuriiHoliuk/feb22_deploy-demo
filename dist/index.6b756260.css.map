@@ -1,0 +1,1 @@
+{"mappings":"ACAA,gBAIA","sources":["index.6b756260.css","src/style.scss"],"sourcesContent":["html {\n  color: #fff;\n}\n\nbody {\n  background-color: tomato;\n}\n\n/*# sourceMappingURL=index.6b756260.css.map */\n","html {\n  color: white;\n}\n\nbody {\n  background-color: tomato;\n}\n"],"names":[],"version":3,"file":"index.6b756260.css.map"}
