@@ -5,9 +5,12 @@
   "source": "./src/index.html",
   "scripts": {
     "start": "parcel --open",
+    "prebuild": "rm -rf ./dist",
     "build": "parcel build --public-url ./",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ./src",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [
     "gh-pages"
@@ -16,6 +19,9 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.1",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "gh-pages": "^4.0.0",
     "parcel": "^2.6.1"
   },
