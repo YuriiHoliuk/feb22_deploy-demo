@@ -10,7 +10,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint ./src",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install"
   },
   "keywords": [
     "gh-pages"
@@ -23,7 +24,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "gh-pages": "^4.0.0",
-    "parcel": "^2.6.1"
+    "parcel": "^2.6.1",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
