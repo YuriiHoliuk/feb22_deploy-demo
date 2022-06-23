@@ -5,7 +5,7 @@ import _ from 'lodash';
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // for loop
-for (let i = 0; i < nums.length; i++) {
+for (let i = 0; i < nums.length; i += 1) {
   console.log(nums[i]);
 }
 
