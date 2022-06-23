@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint ./src --ext .ts,.js",
     "lint:fix": "npm run lint -- --fix",
+    "lint:ci": "npm run lint -- --format @microsoft/eslint-formatter-sarif --output-file eslint-results.sarif",
     "prepare": "husky install"
   },
   "keywords": [
@@ -19,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "^2.1.7",
     "@parcel/transformer-sass": "^2.6.2",
     "@parcel/validator-typescript": "^2.6.2",
     "@types/lodash": "^4.14.182",
