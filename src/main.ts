@@ -11,6 +11,16 @@ const [evens, odds] = _.partition(nums, (num) => num % 2 === 0);
 console.log(evens);
 console.log(odds);
 
+const str = 'name:Bob.age:20.date:2019-01-01';
+export function parse(input: string): { name: string; age: number; date: Date } {
+  const [name, age, date] = input.split(':');
+  return {
+    name,
+    age: parseInt(age, 10),
+    date: new Date(date),
+  };
+}
+
 export function isEven(num: number): boolean {
   return num % 2 === 0;
 }

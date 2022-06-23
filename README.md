@@ -5,7 +5,7 @@
   - [x] lodash
   - [x] bulma
   - [x] typescript
-    - [ ] typescript eslint
+    - [x] typescript eslint
 - [ ] scripts
   - [x] start(dev server)
   - [x] build(source -> bundle)
