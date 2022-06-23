@@ -1,7 +1,15 @@
+@import '../node_modules/bulma/css/bulma.css';
+
 html {
   color: white;
 }
 
 body {
   background-color: tomato;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }

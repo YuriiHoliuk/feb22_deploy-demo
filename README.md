@@ -8,8 +8,8 @@
 - [ ] scripts
   - [x] start(dev server)
   - [x] build(source -> bundle)
-  - [ ] lint
-    - [ ] pre-commit hook
+  - [x] lint
+    - [x] pre-commit hook
   - [ ] test*
   - [x] deploy
 - [ ] CI/CD

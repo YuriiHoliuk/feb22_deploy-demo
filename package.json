@@ -28,6 +28,7 @@
     "husky": "^8.0.0"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "lodash": "^4.17.21"
   }
 }
