@@ -4,6 +4,11 @@ import _ from 'lodash';
 // nums array
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+// for loop
+for (let i = 0; i < nums.length; i++) {
+  console.log(nums[i]);
+}
+
 // partition array and destructure
 const [evens, odds] = _.partition(nums, (num) => num % 2 === 0);
 
