@@ -11,7 +11,7 @@ const [evens, odds] = _.partition(nums, (num) => num % 2 === 0);
 console.log(evens);
 console.log(odds);
 
-export function isEven(num) {
+export function isEven(num: number): boolean {
   return num % 2 === 0;
 }
 
